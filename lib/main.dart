@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:torch/torch_light.dart';
+import 'package:torch/splash_screen.dart';
 import 'package:torch_controller/torch_controller.dart';
 
 void main() {
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Torch Light',
       theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
           appBarTheme: AppBarTheme.of(context).copyWith(color: Colors.black)),
-      home: const TorrchLight(),
+      home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
